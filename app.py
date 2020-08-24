@@ -23,6 +23,9 @@ def best_time(us_videos, category=None):
     st.plotly_chart(fig)
     fig2 = px.bar(us_videos_cp, x='hour', y='views', title='View count by hour')
     st.plotly_chart(fig2)
+    fig2 = px.bar(us_videos_cp, x='day', y='views', title='View count by day of the month')
+    st.plotly_chart(fig2)
+
 
 
 def interesting_words(category=None, use_in='title', top=10):
