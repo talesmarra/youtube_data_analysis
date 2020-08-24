@@ -7,6 +7,16 @@ A similar procedure can be used to check data from other countries.
 
 Results are presented in the notebook, as well as the general procedure and hypothesis.
 
+Base on this, created also an Youtube Helper, a product that can simulate an assitant to a Youtuber in order to help him make his decisions, about the title and
+tags of the video, as well as the time of publication.
+
+The helper can be run with streamlit:
+
+```bash
+streamlit run app.py
+```
+
+
 ### Author:
 
 <ul>
@@ -33,4 +43,5 @@ youtube_data_analysis
 │   │   USvideos.csv                        <- csv file with data
 │   .gitignore                              <- gitignore
 │   Youtube_US_videos_data_analysis.ipynb   <- data analysis notebook
+|   app.py                                  <- the youtuber helper
 ```
